@@ -1458,7 +1458,7 @@
 		-ms-justify-content: center;
 		justify-content: center;
 		min-height: 25vh;
-		height: 25vh;
+		height: 50vh;
 		position: relative;
 		background: #000;
 		/* background-image: url(../../images/nath-veto-1.jpg); */
@@ -1480,7 +1480,7 @@
 		-ms-transition: opacity 1s ease, transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
 		position: relative;
-		opacity: 1;
+		opacity: 3;
 		z-index: 3;
 		padding: 0em 20em;
 	}
