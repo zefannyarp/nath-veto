@@ -1469,7 +1469,16 @@
 		text-align: center;
 		color: #FFF;
 	}
-
+	li,
+ol,
+ul {
+    list-style: none;
+}
+.container {
+    display: table;
+    table-layout: fixed;
+    position: relative;
+}
 	#wedding .isi {
 		-moz-transform: none;
 		-webkit-transform: none;
