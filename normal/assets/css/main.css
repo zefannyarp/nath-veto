@@ -1523,9 +1523,9 @@
 		-ms-justify-content: center;
 		justify-content: center;
 		min-height: 25vh;
-		height: 120vh;
+		height: 200vh;
 		position: relative;
-		background: #000;
+		background: rgb(238, 14, 14);
 		/* background-image: url(../../images/nath-veto-1.jpg); */
 		background-size: cover;
 		/* background-attachment: fixed; */
