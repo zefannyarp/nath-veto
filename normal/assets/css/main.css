@@ -1491,7 +1491,7 @@
 		/* display: -ms-flexbox; */
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
-		padding: 8em 0 6em 0;
+		padding: 4em 0 6em 0;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -1505,7 +1505,7 @@
 		-ms-justify-content: center;
 		justify-content: center;
 		min-height: 25vh;
-		height: 50vh;
+		height: 35vh;
 		position: relative;
 		background: #000;
 		/* background-image: url(../../images/nath-veto-1.jpg); */
