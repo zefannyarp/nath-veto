@@ -1438,15 +1438,16 @@
 
 				}
 
+
 /* Banner */
 
-	/* body.is-loading #banner > .inner {
+	body.is-loading #banner > .inner {
 		opacity: 0;
 		-moz-transform: translateY(1em);
 		-webkit-transform: translateY(1em);
 		-ms-transform: translateY(1em);
 		transform: translateY(1em);
-	} */
+	}
 
 	#banner {
 		/* display: -ms-flexbox; */
@@ -1512,6 +1513,7 @@
 			opacity: 1;
 			z-index: 3;
 			padding: 0 2em;
+			margin-top: 120pt;
 		}
 
 		#banner h1 {
