@@ -1440,16 +1440,16 @@
 
 /* Banner */
 
-	body.is-loading #banner > .inner {
+	/* body.is-loading #banner > .inner {
 		opacity: 0;
 		-moz-transform: translateY(1em);
 		-webkit-transform: translateY(1em);
 		-ms-transform: translateY(1em);
 		transform: translateY(1em);
-	}
+	} */
 
 	#banner {
-		display: -ms-flexbox;
+		/* display: -ms-flexbox; */
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
 		padding: 8em 0 6em 0;
@@ -1457,21 +1457,21 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		display: -moz-flex;
+		/* display: -moz-flex;
 		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
+		display: -ms-flex; */
+		/* display: flex; */
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
 		min-height: 75vh;
-		height: 75vh;
+		height: 100vh;
 		position: relative;
 		background: #000;
-		background-image: url(../../images/banner.jpg);
+		background-image: url(../../images/nath-veto-1.jpg);
 		background-size: cover;
-		background-attachment: fixed;
+		/* background-attachment: fixed; */
 		background-repeat: no-repeat;
 		background-position: center;
 		text-align: center;
