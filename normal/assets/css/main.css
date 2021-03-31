@@ -1487,7 +1487,7 @@
 
 /* Slide 2 */
 
-	#slide {
+	#slidezzz {
 		/* display: -ms-flexbox; */
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
@@ -1517,7 +1517,7 @@
 		color: #FFF;
 	}
 
-	#slide .isi {
+	#slidezzz .isi {
 		-moz-transform: none;
 		-webkit-transform: none;
 		-ms-transform: none;
