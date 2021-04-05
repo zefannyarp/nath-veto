@@ -90,7 +90,6 @@
 			transition: none !important;
 		}
 
-<<<<<<< Updated upstream
 /* Card */
 	.card {
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -105,8 +104,6 @@
   .container {
 	padding: 2px 16px;
   }
-=======
->>>>>>> Stashed changes
   
 /* Type */
 
@@ -298,18 +295,6 @@
 	.align-right {
 		text-align: right;
 	}
-	/* Card */
-	.card {
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	transition: 0.3s;
-	width: 40%;
-  }
-  
-  	.card:hover {
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-
 
 /* Box */
 
@@ -1578,7 +1563,7 @@
 		-ms-justify-content: center;
 		justify-content: center;
 		min-height: 25vh;
-		height: 100vh;
+		height: 175vh;
 		position: relative;
 		background: rgb(238, 14, 14);
 		/* background-image: url(../../images/nath-veto-1.jpg); */
