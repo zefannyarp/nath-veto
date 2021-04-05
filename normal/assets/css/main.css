@@ -89,12 +89,13 @@
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+
 /* Card */
-.card {
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	transition: 0.3s;
-	width: 40%;
-  }
+	.card {
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		transition: 0.3s;
+		width: 40%;
+	}
   
   .card:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -1717,16 +1718,16 @@
 		-ms-justify-content: center;
 		justify-content: center;
 		min-height: 25vh;
-		height: 35vh;
+		height: 40vh;
 		position: relative;
-		background: rgb(0, 0, 0);
+		background: #92ca9d;
 		/* background-image: url(../../images/nath-veto-1.jpg); */
 		background-size: cover;
 		/* background-attachment: fixed; */
 		background-repeat: no-repeat;
 		background-position: center;
 		text-align: center;
-		color: #FFF;
+		color: #92ca9d;
 	}
 
 	#slidezzz .isi {
@@ -1742,6 +1743,7 @@
 		opacity: 3;
 		z-index: 3;
 		padding: 0em 20em;
+		background: #92ca9d;
 	}
 
 /* Banner */
