@@ -1693,13 +1693,59 @@
 	padding: 0em 20em;
 }
 
-/* Slide 2 */
+/* The Bride & The Groom */
+
+#bridegroom {
+	/* display: -ms-flexbox; */
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	padding: 1em 0 6em 0;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	/* display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex; */
+	/* display: flex; */
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	height: 18vh;
+	position: relative;
+	background: rgb(226, 225, 225);
+	/* background-image: url(../../images/nath-veto-1.jpg); */
+	background-size: cover;
+	/* background-attachment: fixed; */
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #92ca9d;
+}
+
+#bridegroom .isi {
+	-moz-transform: none;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+	-moz-transition: opacity 1s ease, transform 1s ease;
+	-webkit-transition: opacity 1s ease, transform 1s ease;
+	-ms-transition: opacity 1s ease, transform 1s ease;
+	transition: opacity 1s ease, transform 1s ease;
+	position: relative;
+	opacity: 3;
+	z-index: 3;
+	padding: 0em 20em;
+	background: rgb(226, 225, 225);
+}
+/* Verse 1 */
 
 	#verse1 {
 		/* display: -ms-flexbox; */
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
-		padding: 4em 0 6em 0;
+		padding: 3em 0 6em 0;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -1713,7 +1759,7 @@
 		-ms-justify-content: center;
 		justify-content: center;
 		min-height: 25vh;
-		height: 35vh;
+		height: 40vh;
 		position: relative;
 		background: #92ca9d;
 		/* background-image: url(../../images/nath-veto-1.jpg); */
