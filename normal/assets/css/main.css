@@ -555,7 +555,7 @@
 	-webkit-justify-content: space-between;
 	-ms-justify-content: space-between;
 	justify-content: space-between;
-	background: black;
+	background: white;
 }
 
 	#contact2 form {
@@ -1565,7 +1565,7 @@
 		min-height: 25vh;
 		height: 175vh;
 		position: relative;
-		background: rgb(238, 14, 14);
+		background: rgb(255, 255, 255);
 		/* background-image: url(../../images/nath-veto-1.jpg); */
 		background-size: cover;
 		/* background-attachment: fixed; */
@@ -1574,12 +1574,6 @@
 		text-align: center;
 		color: #FFF;
 	}
-
-	#wedding .contact2.column.flex.col-6-12.card {
-		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-		transition: 0.3s;
-		border-radius: 5px; /* 5px rounded corners */
-	  }
 
 	li,	ol, ul {
     	list-style: none;
