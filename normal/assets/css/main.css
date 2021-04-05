@@ -556,7 +556,7 @@
 	-webkit-justify-content: space-between;
 	-ms-justify-content: space-between;
 	justify-content: space-between;
-	background: white;
+	background: #679370;
 }
 
 	#contact2 form {
@@ -1550,7 +1550,7 @@
 		/* display: -ms-flexbox; */
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
-		padding: 8em 0 6em 0;
+		padding: 3em 0 6em 0;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -1564,9 +1564,9 @@
 		-ms-justify-content: center;
 		justify-content: center;
 		min-height: 25vh;
-		height: 175vh;
+		height: 158vh;
 		position: relative;
-		background: rgb(255, 255, 255);
+		background: #92ca9d;
 		/* background-image: url(../../images/nath-veto-1.jpg); */
 		background-size: cover;
 		/* background-attachment: fixed; */
@@ -1695,7 +1695,7 @@
 
 /* Slide 2 */
 
-	#slidezzz {
+	#verse1 {
 		/* display: -ms-flexbox; */
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
@@ -1713,7 +1713,7 @@
 		-ms-justify-content: center;
 		justify-content: center;
 		min-height: 25vh;
-		height: 40vh;
+		height: 35vh;
 		position: relative;
 		background: #92ca9d;
 		/* background-image: url(../../images/nath-veto-1.jpg); */
@@ -1725,7 +1725,7 @@
 		color: #92ca9d;
 	}
 
-	#slidezzz .isi {
+	#verse1 .isi {
 		-moz-transform: none;
 		-webkit-transform: none;
 		-ms-transform: none;
