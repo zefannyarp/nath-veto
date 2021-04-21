@@ -30,11 +30,42 @@
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
 	 	<link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Material+Icons&display=swap"/>
-		<link rel="stylesheet" href="assets/css/main.css" />			
+		<link rel="stylesheet" href="assets/css/main.css" />	
+		<script>
+			// Set the date we're counting down to
+			var countDownDate = new Date("Sept 26, 2021 12:00:00").getTime();
+			
+			// Update the count down every 1 second
+			var x = setInterval(function() {
+			
+			  // Get today's date and time
+			  var now = new Date().getTime();
+				
+			  // Find the distance between now and the count down date
+			  var distance = countDownDate - now;
+				
+			  // Time calculations for days, hours, minutes and seconds
+			  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+				
+			  // Output the result in an element with id="demo"
+			  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+			  + minutes + "m " + seconds + "s ";
+				
+			  // If the count down is over, write some text 
+			  if (distance < 0) {
+				clearInterval(x);
+				document.getElementById("demo").innerHTML = "EXPIRED";
+			  }
+			}, 1000);
+			</script>		
 	</head>
 
 	<body>
 		<div class="page-wrap">
+			
 
 			<!-- Nav -->
 				<!-- <nav id="nav">
@@ -51,6 +82,7 @@
 					<!-- Banner -->
 						<section id="banner">
 							<div class="inner">
+								<p id="demo"></p>
 								<h6 style="font-family: 'Forum', cursive; font-size: 15px;">THE WEDDING OF</h6>
 								<h1 style="font-family: 'Miss Fajardose', cursive; font-size: 150px;">Veto & Nath</h1>
 								<audio src="music/To Have and to Hold (Instrumental).mp3" controls></audio>
@@ -188,7 +220,7 @@
 									<div>  
 										<h4 style="font-family: 'Raleway', sans-serif; text-align: center; color: black; font-size: 30px;" class="ae-1">Holy Matrimony & Wedding Soiree Details</h4>
 										<p style="font-family: 'Raleway', sans-serif; text-align: center; color: black; font-size: 17px;" class="ae-1">By the Grace of God, we are joyfully announce of our marriage that will be held on </p>
-								
+							<!--  -->
 										<section id="contact2">
 
 											<div class="column">
@@ -245,6 +277,17 @@
 									</div>
 
 						</section>
+
+						<!-- Banner -->
+						<section id="wedding">				
+							<div>
+								<form>
+									<h2 style="font-family: 'Dancing Script', cursive; margin-top: 5%; margin-bottom: auto;" class="large ae-2 ">RSVP</h1>
+								</form>
+							</div>
+							</section>
+						
+					<!--  -->
 
 						<!-- covid-19 protocols -->
 						<section id="">
